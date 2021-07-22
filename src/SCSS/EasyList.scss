@@ -6,6 +6,7 @@ body {
     background-color: #17141d;
     color: white;
     font-family: 'DM Mono', monospace;
+    background-clip: border-box;
 }
 
 a {
@@ -15,29 +16,14 @@ a {
 .card-list {
     display: flex;
     padding: 3rem;
-    overflow-x: scroll;
-}
-
-.card-list::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-}
-.card-list::-webkit-scrollbar-thumb {
-    background: #201c29;
-    border-radius: 10px;
-    box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25), inset -2px -2px 2px rgba(0,0,0,.25);
-}
-
-.card-list::-webkit-scrollbar-track {
-    background: linear-gradient(90deg,#201c29,#201c29 1px,#17141d 0,#17141d);
 }
 
 
 .easyCard {
     height: 400px;
     width: 375px;
-    min-width: 350px;
-    padding: 1.5rem;
+    min-width: 400px;
+    padding: 1.2rem;
     border-radius: 16px;
     background: #17141d;
     box-shadow: -1rem 0 3rem #000;
@@ -45,7 +31,6 @@ a {
     flex-direction: column;
     transition: .2s;
     margin: 0;
-    scroll-snap-align: start;
     clear: both;
     position: relative;
 }
@@ -53,16 +38,17 @@ a {
 .easyTitleCard {
     height: 400px;
     width: 400px;
-    min-width: 250px;
+    min-width: 400px;
     padding: 1.5rem;
     border-radius: 16px;
     background: #17141d;
+    -webkit-background-clip: initial;
+    background-clip: initial;
     box-shadow: -1rem 0 3rem #000;
     display: flex;
     flex-direction: column;
     transition: .2s;
     margin: 0;
-    scroll-snap-align: start;
     clear: both;
     position: relative;
 }
