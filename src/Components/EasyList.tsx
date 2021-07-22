@@ -55,7 +55,7 @@ function EasyList() {
 
         <div className="easyCard-author">
           <a className="easyAuthor-avatar" href="https://www.linkedin.com/in/beauseate/" target="_blank" rel="noopener noreferrer">
-            <img src={avatar} alt="Beau Avatar/>
+            <img src={avatar} alt="Beau Avatar" />
           </a>
           <svg className="easyHalf-circle" viewBox="0 0 106 57">
             <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
