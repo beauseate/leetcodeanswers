@@ -19,12 +19,12 @@ function EasyList() {
       <article className="easyCard">
         <header className="easyCard-header">
           <p>Jul 21 2021</p>
-          <a href="https://www.youtube.com/watch?v=WIvFu41U5Fg&t=16s" target="_blank" rel="noopener noreferrer">
+          <a href="https://youtu.be/WIvFu41U5Fg" target="_blank" rel="noopener noreferrer">
             <h2>#1 Two Sum</h2>
           </a>
         </header>
         <div className="videoThumbnail">
-            <a href="https://www.youtube.com/watch?v=WIvFu41U5Fg&t=16s" target="_blank" rel="noopener noreferrer">
+            <a href="https://youtu.be/WIvFu41U5Fg" target="_blank" rel="noopener noreferrer">
         <img src={TwoSumThumbnail} alt="Two Sum Thumbnail" />
         </a>
         </div>
