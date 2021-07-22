@@ -7,7 +7,7 @@ import { withRouter } from "react-router-dom";
 function EasyList() {
   return (
     <section className="card-list">
-      <a href="#">
+      <a href="https://leetcodeanswers.com">
         <article className="easyTitleCard">
           <header className="easyTitleCard-header">
             <h2>Easy</h2>
@@ -25,12 +25,12 @@ function EasyList() {
         </header>
         <div className="videoThumbnail">
             <a href="https://www.youtube.com/watch?v=WIvFu41U5Fg&t=16s" target="_blank" rel="noopener noreferrer">
-        <img src={TwoSumThumbnail} />
+        <img src={TwoSumThumbnail} alt="Two Sum Thumbnail" />
         </a>
         </div>
         <div className="easyCard-author">
           <a className="easyAuthor-avatar" href="https://www.linkedin.com/in/beauseate/" target="_blank" rel="noopener noreferrer">
-            <img src={avatar} />
+            <img src={avatar} alt="Two Sum Thumbnail" />
           </a>
           <svg className="easyHalf-circle" viewBox="0 0 106 57">
             <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
@@ -42,8 +42,8 @@ function EasyList() {
           </div>
         </div>
         <div className="easyTags">
-          <a href="#">Easy</a>
-          <a href="#">Arrays</a>
+          <a href="https://leetcodeanswers.com">Easy</a>
+          <a href="https://leetcodeanswers.com">Arrays</a>
         </div>
       </article>
 
@@ -67,8 +67,8 @@ function EasyList() {
           </div>
         </div>
         <div className="easyTags">
-          <a href="#">Easy</a>
-          <a href="#">Arrays</a>
+          <a href="https://leetcodeanswers.com">Easy</a>
+          <a href="https://leetcodeanswers.com">Arrays</a>
         </div>
       </article>
     </section>
