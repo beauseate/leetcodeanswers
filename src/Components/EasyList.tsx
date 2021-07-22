@@ -1,0 +1,78 @@
+import React from "react";
+import avatar from "../IMG/avatar.png";
+import TwoSumThumbnail from "../IMG/TwoSumThumbnail.jpg";
+import "../SCSS/EasyList.scss";
+import { withRouter } from "react-router-dom";
+
+function EasyList() {
+  return (
+    <section className="card-list">
+      <a href="#">
+        <article className="easyTitleCard">
+          <header className="easyTitleCard-header">
+            <h2>Easy</h2>
+            <h3>More +</h3>
+          </header>
+        </article>
+      </a>
+
+      <article className="easyCard">
+        <header className="easyCard-header">
+          <p>Jul 21 2021</p>
+          <a href="https://www.youtube.com/watch?v=WIvFu41U5Fg&t=16s" target="_blank" rel="noopener noreferrer">
+            <h2>#1 Two Sum</h2>
+          </a>
+        </header>
+        <div className="videoThumbnail">
+            <a href="https://www.youtube.com/watch?v=WIvFu41U5Fg&t=16s" target="_blank" rel="noopener noreferrer">
+        <img src={TwoSumThumbnail} />
+        </a>
+        </div>
+        <div className="easyCard-author">
+          <a className="easyAuthor-avatar" href="https://www.linkedin.com/in/beauseate/" target="_blank" rel="noopener noreferrer">
+            <img src={avatar} />
+          </a>
+          <svg className="easyHalf-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg>
+
+          <div className="easyAuthor-name">
+            <div className="easyAuthor-name-prefix">Video Author</div>
+            Beau Seate
+          </div>
+        </div>
+        <div className="easyTags">
+          <a href="#">Easy</a>
+          <a href="#">Arrays</a>
+        </div>
+      </article>
+
+      <article className="easyCard">
+        <header className="easyCard-header">
+          <p>Jul 22 2021</p>
+          <h2>#53 Maximum Subarray</h2>
+        </header>
+
+        <div className="easyCard-author">
+          <a className="easyAuthor-avatar" href="https://www.linkedin.com/in/beauseate/" target="_blank" rel="noopener noreferrer">
+            <img src={avatar} />
+          </a>
+          <svg className="easyHalf-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg>
+
+          <div className="easyAuthor-name">
+            <div className="easyAuthor-name-prefix">Video Author</div>
+            Beau Seate
+          </div>
+        </div>
+        <div className="easyTags">
+          <a href="#">Easy</a>
+          <a href="#">Arrays</a>
+        </div>
+      </article>
+    </section>
+  );
+}
+
+export default withRouter(EasyList);
