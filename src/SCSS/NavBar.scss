@@ -1,0 +1,28 @@
+.navbar a {
+    text-decoration: underline;
+    color: white;
+}
+
+.navbar {
+    display: inline-block;
+    align-items: center;
+    
+    background: #17141d;
+    color: white;
+    font-family: Helvetica;
+    font-weight: 300;
+    padding: 3rem;
+    padding-bottom: 0;
+}
+
+.navbar__title {
+    margin-right: 2rem;
+    font-size: 150%;
+    padding: 12px 16px;
+}
+
+.navbar__item {
+    padding: 16px 16px;
+    vertical-align: middle;
+    
+}

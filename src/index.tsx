@@ -1,15 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './index.scss';
+import NavBar from './Components/NavBar';
+import EasyList from './Components/EasyList';
+import MediumList from './Components/MediumList';
+import HardList from './Components/HardList';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+    <Router forceRefresh={true}>
+      {/* A <Switch> looks through its children <Route>s and
+        renders the first one that matches the current URL. */}
+      <Switch>
+        <Route exact path="/">
+          <NavBar />
+          <EasyList />
+          <MediumList />
+          <HardList />
+        </Route>
+      </Switch>
+    </Router>,
+    document.getElementById('root')
+  );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
