@@ -1,6 +1,7 @@
 import React from "react";
 import avatar from "../IMG/avatar.png";
 import TwoSumThumbnail from "../IMG/TwoSumThumbnail.jpg";
+import MaxSubarrayThumbnail from "../IMG/MaxSubarrayThumbnail.jpg";
 import "../SCSS/EasyList.scss";
 import { withRouter } from "react-router-dom";
 
@@ -49,10 +50,16 @@ function EasyList() {
 
       <article className="easyCard">
         <header className="easyCard-header">
-          <p>Jul 22 2021</p>
-          <h2>#53 Maximum Subarray</h2>
+          <p>Jul 23 2021</p>
+          <a href="https://youtu.be/MnaI_qacwis" target="_blank" rel="noopener noreferrer">
+            <h2>#53 Maximum Subarray</h2>
+          </a>
         </header>
-
+        <div className="videoThumbnail">
+            <a href="https://youtu.be/MnaI_qacwis" target="_blank" rel="noopener noreferrer">
+        <img src={MaxSubarrayThumbnail} alt="Max SubarrayThumbnail" />
+        </a>
+        </div>
         <div className="easyCard-author">
           <a className="easyAuthor-avatar" href="https://www.linkedin.com/in/beauseate/" target="_blank" rel="noopener noreferrer">
             <img src={avatar} alt="Beau Avatar" />
