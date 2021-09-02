@@ -12,7 +12,7 @@ function  NavBar () {
         </div>
         <div className='navbar__item'>
             <a href="https://www.youtube.com/channel/UC-DL9v2dIGIoJZRakMbBppw">
-                <h2> New Videos Every Week!</h2>
+                <h2> New Video Every Week!</h2>
             </a>
         </div>     
     </header>
