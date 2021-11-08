@@ -5,7 +5,7 @@ import { withRouter } from "react-router-dom";
 function HardList() {
   return (
     <section className="card-list">
-      <a href="https://leetcodeanswers.com">
+      <a href="https://leetgeeks.io">
         <article className="hardTitleCard">
           <header className="hardTitleCard-header">
             <h2>Hard</h2>

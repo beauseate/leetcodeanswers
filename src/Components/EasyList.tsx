@@ -8,7 +8,7 @@ import { withRouter } from "react-router-dom";
 function EasyList() {
   return (
     <section className="card-list">
-      <a href="https://leetcodeanswers.com">
+      <a href="https://leetgeeks.io">
         <article className="easyTitleCard">
           <header className="easyTitleCard-header">
             <h2>Easy</h2>
@@ -43,8 +43,8 @@ function EasyList() {
           </div>
         </div>
         <div className="easyTags">
-          <a href="https://leetcodeanswers.com">Easy</a>
-          <a href="https://leetcodeanswers.com">Arrays</a>
+          <a href="https://leetgeeks.io">Easy</a>
+          <a href="https://leetgeeks.io">Arrays</a>
         </div>
       </article>
 
@@ -74,8 +74,8 @@ function EasyList() {
           </div>
         </div>
         <div className="easyTags">
-          <a href="https://leetcodeanswers.com">Easy</a>
-          <a href="https://leetcodeanswers.com">Arrays</a>
+          <a href="https://leetgeeks.io">Easy</a>
+          <a href="https://leetgeeks.io">Arrays</a>
         </div>
       </article>
     </section>
